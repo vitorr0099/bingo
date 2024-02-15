@@ -3,32 +3,38 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 .container {
-    text-align: center;
-}
-
-.current-number {
-    font-size: 72px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#number-input {
-    width: 300px;
-    padding: 10px;
-    font-size: 16px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .previous-numbers {
+    margin-bottom: 20px;
+}
+
+.previous-numbers h2 {
+    margin-bottom: 10px;
+}
+
+#previous-numbers-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#previous-numbers-list div {
     font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#current-number {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
 }
