@@ -3,29 +3,24 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    max-width: 600px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
     text-align: center;
 }
 
-.bingo-numbers {
-    font-size: 20px;
-    text-align: center;
+.current-number {
+    font-size: 72px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
 #number-input {
-    width: 100%;
+    width: 300px;
     padding: 10px;
     font-size: 16px;
     box-sizing: border-box;
@@ -34,7 +29,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-#number-input:focus {
-    outline: none;
-    border-color: #007bff;
+.previous-numbers {
+    font-size: 20px;
 }
