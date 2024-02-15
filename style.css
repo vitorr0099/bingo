@@ -3,38 +3,22 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.previous-numbers {
+.current-number {
+    font-size: 85px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
-.previous-numbers h2 {
-    margin-bottom: 10px;
-}
-
-#previous-numbers-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#previous-numbers-list div {
-    font-size: 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-#current-number {
-    font-size: 72px;
-    font-weight: bold;
-    text-align: center;
+.previous-numbers {
+    font-size: 70px;
 }
